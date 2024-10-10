@@ -51,6 +51,7 @@ variable "internet_query_enabled" {
 variable "reservation_capacity_in_gb_per_day" {
   type        = number
   description = "(optional) describe your variable"
+  default = null
 }
 
 variable "data_collection_rule_id" {
